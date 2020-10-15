@@ -558,7 +558,7 @@ h6 {
   text-align: left;
 }
 
-/*  Section
+/*  Formación profesional
 --------------------------------*/
 
 #why-us {
@@ -610,43 +610,6 @@ h6 {
   color: #8a87b6;
 }
 
-/* Información profesional Section
---------------------------------*/
-
-#call-to-action {
-  background: #2d2b46;
-  background-size: cover;
-  padding: 40px 0;
-}
-
-#call-to-action .cta-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action .cta-text {
-  color: #fff;
-}
-
-#call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 26px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 3px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
-}
 
 /* Features Section
 --------------------------------*/
@@ -663,18 +626,18 @@ h6 {
 /* Proyecto destacado
 --------------------------------*/
 
-#portfolio {
+#proyecto {
   padding: 60px 0;
 }
 
-#portfolio #portfolio-flters {
+#proyecto #proyecto-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-#portfolio #portfolio-flters li {
+#proyecto #proyecto-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -686,33 +649,33 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#peoyecto #proyecto-flters li:hover,
+#proyecto #proyecto-flters li.filter-active {
   color: #1bb1dc;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#proyecto #proyecto-flters li:last-child {
   margin-right: 0;
 }
 
-#portfolio .portfolio-item {
+#proyecto .proyecto-item {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap {
+#proyecto .proyecto-item .proyecto-wrap {
   overflow: hidden;
   position: relative;
   margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover img {
+#portfolio .proyecto-item .proyecto-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info {
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info {
   position: absolute;
   top: 0;
   right: 0;
@@ -740,7 +703,7 @@ h6 {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info h4 {
   font-size: 22px;
   line-height: 1px;
   font-weight: 700;
@@ -748,15 +711,15 @@ h6 {
   padding-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info h4 a {
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info h4 a:hover {
   color: #1bb1dc;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info p {
   padding: 0;
   margin: 0;
   color: #f8fcff;
@@ -765,8 +728,8 @@ h6 {
   text-transform: uppercase;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info .link-preview,
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info .link-details {
   display: inline-block;
   line-height: 1;
   text-align: center;
@@ -777,48 +740,47 @@ h6 {
   margin: 10px 4px 0 4px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info .link-preview i,
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info .link-preview:hover,
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info .link-details:hover {
   background: #42c3e8;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info .link-preview:hover i,
+#proyecto .proyecto-item .proyecto-wrap .proyecto-info .link-details:hover i {
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover {
+#proyecto .proyecto-item .proyecto-wrap:hover {
   background: #282646;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
+#proyecto .proyecto-item .proyecto-wrap:hover .proyecto-info {
   opacity: 1;
 }
-
 
 
 /* Proyectos Futuros
 --------------------------------*/
 
-#team {
+#prfutuos {
   padding: 60px 0;
 }
 
-#team .member {
+#pfuturos .member {
   text-align: center;
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
 
-#team .member .member-info {
+#pfuturos .member .member-info {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -840,88 +802,53 @@ h6 {
   background: rgba(29, 28, 41, 0.6);
 }
 
-#team .member .member-info-content {
+#pfuturos .member .member-info-content {
   transition: margin 0.2s;
   height: 40px;
   transition: height 0.4s;
 }
 
-#team .member:hover .member-info {
+#pfuturos .member:hover .member-info {
   transition: 0.4s;
 }
 
-#team .member:hover .member-info-content {
+#pfuturos .member:hover .member-info-content {
   height: 80px;
 }
 
-#team .member h4 {
+#pfuturos .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
-#team .member span {
+#pfuturos .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-#team .member .social {
+#pfuturos .member .social {
   margin-top: 15px;
 }
 
-#team .member .social a {
+#pfuturos .member .social a {
   transition: none;
   color: #fff;
 }
 
-#team .member .social a:hover {
+#pfuturos .member .social a:hover {
   color: #1bb1dc;
 }
 
-#team .member .social i {
+#pfuturos .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
 
-/* Clients Section
---------------------------------*/
 
-#clients {
-  padding: 60px 0;
-}
-
-#clients img {
-  max-width: 80%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
-}
-
-#clients .owl-nav,
-#clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#clients .owl-dot.active {
-  background-color: #1bb1dc;
-}
 
 /*--------------------------------------------------------------
 # Footer
