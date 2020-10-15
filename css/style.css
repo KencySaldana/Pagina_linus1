@@ -773,6 +773,38 @@ h6 {
   padding: 60px 0;
 }
 
+/*Introduccion de la seccion proyectos futuros*/
+ #PF-intro{
+  text-align: left;
+  width: 90%;
+}
+ #PF-intro p{
+  position: relative;
+  left: 70px;
+}
+
+#img_pry {
+  position: relative;
+  left: 135px;
+}
+
+/*Seccion de descripcion de cada futuro proyecto*/
+.section-pry {
+  background: #DADEE5;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pry-int {
+  margin: 0;
+  padding: 20px 8px;
+  list-style: none;
+}
+.pry-int h3{
+  text-align: center;
+}
+
 #pfuturos .member {
   text-align: center;
   margin-bottom: 20px;
