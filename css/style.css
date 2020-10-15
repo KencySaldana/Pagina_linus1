@@ -769,7 +769,7 @@ h6 {
 /* Proyectos Futuros
 --------------------------------*/
 
-#prfutuos {
+#pfuturos {
   padding: 60px 0;
 }
 
@@ -814,6 +814,10 @@ h6 {
 
 #pfuturos .member:hover .member-info-content {
   height: 80px;
+}
+/*Cambio de color de la seccion con las imagenes*/
+#pfuturos .member .member-info-content p {
+  color: white;
 }
 
 #pfuturos .member h4 {
