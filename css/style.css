@@ -212,8 +212,8 @@ h6 {
   background-size: cover;
 }
 
-#intro .intro-info h2 {
-  color: #413e66;
+#intro .intro-info h4 {
+  color: #FBFCFC ;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -317,30 +317,6 @@ h6 {
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
-  content: "\f078";
-  font-family: FontAwesome;
-  padding-left: 10px;
-  position: absolute;
-  right: 15px;
-}
-
-.mobile-nav .active.drop-down > a:after {
-  content: "\f077";
-}
-
-.mobile-nav .drop-down > a {
-  padding-right: 35px;
-}
-
-.mobile-nav .drop-down ul {
-  display: none;
-  overflow: hidden;
-}
-
-.mobile-nav .drop-down li {
-  padding-left: 20px;
-}
 
 .mobile-nav-toggle {
   position: fixed;
@@ -813,7 +789,7 @@ h6 {
 }
 
 #pfuturos .member:hover .member-info-content {
-  height: 80px;
+  height: 100px;
 }
 /*Cambio de color de la seccion con las imagenes*/
 #pfuturos .member .member-info-content p {
