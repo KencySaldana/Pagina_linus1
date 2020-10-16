@@ -148,7 +148,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 110px;
+  height: 150px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -159,6 +159,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background: #f5f8fd url("../img/img/fondo.jpg") center top no-repeat;
 }
 
 #header.header-scrolled,
@@ -196,9 +197,11 @@ h6 {
   max-height: 26px;
 }
 
+
 .main-pages {
   margin-top: 60px;
 }
+
 
 /*--------------------------------------------------------------
 # Intro Section
