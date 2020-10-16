@@ -687,6 +687,21 @@ h6 {
   opacity: 1;
 }
 
+#cita1 {
+  width: 60%;
+  margin: 10px;
+  background: #DADEE5;
+  padding: 20px 10px;
+  border: black 2px solid;
+
+  position: relative;
+  left: 200px;
+}
+
+#img_GNU-Linux img{
+  width: 30%;
+  float: right;
+}
 
 /* Proyectos Futuros
 --------------------------------*/
